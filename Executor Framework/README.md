@@ -1,3 +1,19 @@
+<!-- TOC -->
+* [Threading](#threading)
+  * [Ways of creating threads](#ways-of-creating-threads)
+  * [Thread states](#thread-states)
+  * [Thread Priority](#thread-priority)
+  * [join](#join)
+* [Executor Framework](#executor-framework)
+  * [SingleThreadExecutor](#singlethreadexecutor)
+  * [Different ways to create executor thread](#different-ways-to-create-executor-thread)
+  * [Future](#future)
+    * [Callable Class](#callable-class)
+  * [Invoke multiple callable](#invoke-multiple-callable)
+  * [InvokeAny](#invokeany)
+  * [Terminate Executor](#terminate-executor)
+<!-- TOC -->
+
 # Threading
 ## Ways of creating threads
 
@@ -59,7 +75,7 @@ NORM_PRIORITY = 5
 MAX_PRIORITY = 10
 ```
 
-# join
+## join
 
 thread.join() method call force the execution to stop until thread completes execution.
 
