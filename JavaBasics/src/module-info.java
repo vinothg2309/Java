@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author vinot
+ *
+ */
+module JavaTest {
+}
